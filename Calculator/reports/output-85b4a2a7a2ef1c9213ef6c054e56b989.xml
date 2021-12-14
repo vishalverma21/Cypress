@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="3.1980" tests="4" failures="1">
+  <testsuite name="Root Suite" timestamp="2021-12-14T14:18:13" tests="0" file="cypress/integration/RegressionTests/AddEmployee.spec.ts" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Add Employee Test Suite" timestamp="2021-12-14T14:18:13" tests="4" time="3.1980" failures="1">
+    <testcase name="Add Employee Test Suite Verify Addition Flow" time="1.2720" classname="Verify Addition Flow">
+    </testcase>
+    <testcase name="Add Employee Test Suite Verify Substraction Flow" time="0.9870" classname="Verify Substraction Flow">
+    </testcase>
+    <testcase name="Add Employee Test Suite Verify multiply Flow" time="0.9390" classname="Verify multiply Flow">
+    </testcase>
+    <testcase name="Add Employee Test Suite Verify divide Flow" time="0.0000" classname="Verify divide Flow">
+      <failure message="Timed out retrying after 60000ms: expected &apos;&lt;div.component-display&gt;&apos; to have text &apos;0.005952380952380952&apos;, but the text was &apos;0.00595238095238095238&apos;" type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 60000ms: expected '<div.component-display>' to have text '0.005952380952380952', but the text was '0.00595238095238095238'
+    at CommonObject../cypress/common/CommonObject.ts.CommonObject.verifyDivide (https://ahfarmer.github.io/__cypress/tests?p=cypress/integration/RegressionTests/AddEmployee.spec.ts:244:76)
+    at Context.eval (https://ahfarmer.github.io/__cypress/tests?p=cypress/integration/RegressionTests/AddEmployee.spec.ts:322:16)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

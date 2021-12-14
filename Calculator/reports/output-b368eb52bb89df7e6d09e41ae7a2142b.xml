@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.0000" tests="4" failures="1">
+  <testsuite name="Root Suite" timestamp="2021-12-14T14:31:39" tests="0" file="cypress/integration/RegressionTests/Calculator.spec.ts" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Add Employee Test Suite" timestamp="2021-12-14T14:31:39" tests="4" time="0.0000" failures="1">
+    <testcase name="Add Employee Test Suite &quot;before each&quot; hook for &quot;Verify Addition Flow&quot;" time="0.0000" classname="&quot;before each&quot; hook for &quot;Verify Addition Flow&quot;">
+      <failure message="A fixture file could not be found at any of the following paths:
+
+&gt; cypress/fixtures/WorkMotion
+&gt; cypress/fixtures/WorkMotion{{extension}}
+
+Cypress looked for these file extensions at the provided path:
+
+&gt; .json, .js, .coffee, .html, .txt, .csv, .png, .jpg, .jpeg, .gif, .tif, .tiff, .zip
+
+Provide a path to an existing fixture file.
+
+Because this error occurred during a `before each` hook we are skipping the remaining tests in the current suite: `Add Employee Test Suite`" type="Error"><![CDATA[Error: A fixture file could not be found at any of the following paths:
+
+> cypress/fixtures/WorkMotion
+> cypress/fixtures/WorkMotion{{extension}}
+
+Cypress looked for these file extensions at the provided path:
+
+> .json, .js, .coffee, .html, .txt, .csv, .png, .jpg, .jpeg, .gif, .tif, .tiff, .zip
+
+Provide a path to an existing fixture file.
+
+Because this error occurred during a `before each` hook we are skipping the remaining tests in the current suite: `Add Employee Test Suite`
+    at get (/root/.cache/Cypress/9.1.1/Cypress/resources/app/packages/server/lib/errors.js:1043:15)
+    at Object.throwErr [as throw] (/root/.cache/Cypress/9.1.1/Cypress/resources/app/packages/server/lib/errors.js:1061:9)
+    at Object.<anonymous> (/root/.cache/Cypress/9.1.1/Cypress/resources/app/packages/server/lib/fixture.js:62:23)
+    at Object.tryCatcher (/root/.cache/Cypress/9.1.1/Cypress/resources/app/packages/server/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/root/.cache/Cypress/9.1.1/Cypress/resources/app/packages/server/node_modules/bluebird/js/release/promise.js:547:31)
+    at Promise._settlePromise (/root/.cache/Cypress/9.1.1/Cypress/resources/app/packages/server/node_modules/bluebird/js/release/promise.js:604:18)
+    at Promise._settlePromise0 (/root/.cache/Cypress/9.1.1/Cypress/resources/app/packages/server/node_modules/bluebird/js/release/promise.js:649:10)
+    at Promise._settlePromises (/root/.cache/Cypress/9.1.1/Cypress/resources/app/packages/server/node_modules/bluebird/js/release/promise.js:729:18)
+    at Promise._fulfill (/root/.cache/Cypress/9.1.1/Cypress/resources/app/packages/server/node_modules/bluebird/js/release/promise.js:673:18)
+    at /root/.cache/Cypress/9.1.1/Cypress/resources/app/packages/server/node_modules/bluebird/js/release/nodeback.js:42:21
+    at f (/root/.cache/Cypress/9.1.1/Cypress/resources/app/node_modules/once/once.js:25:25)
+    at Glob.<anonymous> (/root/.cache/Cypress/9.1.1/Cypress/resources/app/packages/server/node_modules/glob/glob.js:151:7)
+    at Glob.emit (node:events:394:28)
+    at Glob._finish (/root/.cache/Cypress/9.1.1/Cypress/resources/app/packages/server/node_modules/glob/glob.js:197:8)
+    at done (/root/.cache/Cypress/9.1.1/Cypress/resources/app/packages/server/node_modules/glob/glob.js:182:14)
+    at Glob._processSimple2 (/root/.cache/Cypress/9.1.1/Cypress/resources/app/packages/server/node_modules/glob/glob.js:688:12)
+    at /root/.cache/Cypress/9.1.1/Cypress/resources/app/packages/server/node_modules/glob/glob.js:676:10
+    at Glob._stat2 (/root/.cache/Cypress/9.1.1/Cypress/resources/app/packages/server/node_modules/glob/glob.js:772:12)
+    at lstatcb_ (/root/.cache/Cypress/9.1.1/Cypress/resources/app/packages/server/node_modules/glob/glob.js:764:12)
+    at RES (/root/.cache/Cypress/9.1.1/Cypress/resources/app/node_modules/inflight/inflight.js:31:16)
+    at f (/root/.cache/Cypress/9.1.1/Cypress/resources/app/node_modules/once/once.js:25:25)
+    at callback (/root/.cache/Cypress/9.1.1/Cypress/resources/app/packages/server/node_modules/graceful-fs/polyfills.js:289:20)
+    at FSReqCallback.oncomplete (node:fs:195:21)
+]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

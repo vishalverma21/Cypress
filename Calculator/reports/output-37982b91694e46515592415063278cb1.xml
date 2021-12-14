@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="1.3850" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2021-12-13T21:01:08" tests="0" file="cypress/integration/RegressionTests/AddEmployee.spec.ts" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Add Employee Test Suite" timestamp="2021-12-13T21:01:08" tests="1" time="1.3850" failures="0">
+    <testcase name="Add Employee Test Suite Add Employee flow" time="1.3850" classname="Add Employee flow">
+    </testcase>
+  </testsuite>
+</testsuites>
